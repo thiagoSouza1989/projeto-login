@@ -53,7 +53,7 @@ main{
 
 .campo{
     background-color: #091b25;
-    border: 2px solid #091b25;
+    /*border: 2px solid #091b25;*/
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
@@ -72,8 +72,8 @@ main{
     
     font-size: 1em;
     width: calc(100% - 45px);
-    height: 100%;
-    transform: translateY(-12px);
+    height: 90%;
+    transform: translateY(-9.5px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
