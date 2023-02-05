@@ -49,3 +49,57 @@ main{
 #formulario p{
     font-size: 0.8em;
 }
+
+.campo{
+    background-color: #091b25;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+.campo label{
+    display: none;
+}
+.campo span{
+    color: white;
+}
+
+form input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    
+    margin-top: 5px;
+    background-color: #bd3f06;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    background-color: #973405;
+}
+
+.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #bd3f06;
+    border: 1px solid #973405;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: #db4a07;
+    color: white;
+}
+.botao span{
+    font-size: 0.8em;
+}
